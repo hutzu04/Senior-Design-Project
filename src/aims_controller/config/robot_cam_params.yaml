@@ -1,0 +1,7 @@
+robot_cam:
+  ros__parameters:
+    video_device: "/dev/video0"  # Adjust to match your robot camera device
+    image_width: 640
+    image_height: 480
+    pixel_format: "yuyv"
+    camera_frame_id: "robot_cam"

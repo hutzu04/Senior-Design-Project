@@ -1,0 +1,15 @@
+<library path="rqt_aims">
+  <class name="AIMS" type="rqt_aims.aims.AIMS" base_class_type="rqt_gui_py::Plugin">
+    <description> A Python GUI plugin for the AIMS project. </description>
+    <qtgui>
+      <group>
+        <label>Services</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to services.</statustip>
+      </group>
+      <label>AIMS</label>
+      <icon type="theme">applications-other</icon>
+      <statustip> A Python GUI plugin for the AIMS project. </statustip>
+    </qtgui>
+  </class>
+</library>
